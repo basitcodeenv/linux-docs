@@ -17,7 +17,7 @@ Linux is an entire family of open-source Unix operating systems, that are based 
 
 Since Linux was first released in **1991**, it has continued to gain popularity due to its open-source nature. People can freely modify and redistribute it under their own name.
 
-When operating a Linux OS, you need to use a shell — an interface that gives you access to the operating system’s services. Most Linux distributions use a graphic user interface (GUI) as their shell, mainly to provide ease of use for their users. It is common practice to use them when managing a [VPS](/tutorials/what-is-vps-hosting).
+When operating a Linux OS, you need to use a shell — an interface that gives you access to the operating system’s services. Most Linux distributions use a graphic user interface (GUI) as their shell, mainly to provide ease of use for their users. It is common practice to use them when managing a [VPSwhat-is-vps-hosting).
 
 That being said, it’s recommended to use a command-line interface (CLI) because it’s more powerful and effective. Tasks that require a multi-step process through GUI can be done in a matter of seconds by typing commands into the CLI.
 
@@ -66,7 +66,7 @@ There are variations you can use with the **ls** command:
 *   **ls -a** will show the hidden files
 *   **ls -al** will list the files and directories with detailed information like the permissions, size, owner, etc.
 
-### 4\. [cat command](/tutorials/linux-cat-command-tutorial-and-examples/)
+### 4\. cat command
 
 **cat** (short for concatenate) is one of the most frequently used commands in Linux. It is used to list the contents of a file on the standard output (sdout). To run this command, type **cat** followed by the file’s name and its extension. For instance: **cat file.txt**.
 
@@ -80,7 +80,7 @@ Here are other ways to use the **cat** command:
 
 Use the **cp** command to copy files from the current directory to a different directory. For instance, the command **cp scenery.jpg** **/home/username/Pictures** would create a copy of **scenery.jpg** (from your current directory) into the **Pictures** directory.
 
-### 6\. [mv command](/tutorials/how-to-rename-files-in-linux/)
+### 6\. mv command
 
 The primary use of the **mv** command is to move files, although it can also be used to rename files.
 
@@ -97,7 +97,7 @@ There are extra **mkdir** commands as well:
 *   To generate a new directory inside another directory, use this Linux basic command **mkdir Music/Newfile**
 *   use the **p** (parents) option to create a directory in between two existing directories. For example, **mkdir -p Music/2020/Newfile** will create the new “2020” file.
 
-### 8\. [rmdir command](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)
+### 8\. rmdir command
 
 If you need to delete a directory, use the **rmdir** command. However, rmdir only allows you to delete empty directories.
 
@@ -107,7 +107,7 @@ The **rm** command is used to delete directories and the contents within them. I
 
 **Note**: Be very careful with this command and double-check which directory you are in. This will delete everything and there is no undo.
 
-### 10\. [touch command](/tutorials/linux-touch-command-with-useful-examples/)
+### 10\. touch command
 
 The **touch** command allows you to create a blank new file through the Linux command line. As an example, enter touch **/home/username/Documents/Web.html** to create an HTML file entitled **Web** under the **Documents** directory.
 
@@ -117,7 +117,7 @@ You can use this command to **locate** a file, just like the search command in W
 
 To search for a file that contains two or more words, use an asterisk **(\*)**. For example, **locate -i school\*note** command will search for any file that contains the word “school” and “note”, whether it is uppercase or lowercase.
 
-### 12\. [find command](/tutorials/how-to-use-find-and-locate-commands-in-linux/)
+### 12\. find command
 
 Similar to the **locate** command, using **find** also searches for files and directories. The difference is, you use the **find** command to locate files within a given directory.
 
@@ -128,13 +128,13 @@ Other variations when using the **find** are:
 *   To find files in the current directory use, **find . -name notes.txt**
 *   To look for directories use, **/ -type d -name notes. txt**
 
-### 13\. [grep command](/tutorials/grep-command-in-linux-useful-examples/)
+### 13\. grep command
 
 Another basic Linux command that is undoubtedly helpful for everyday use is **grep**. It lets you search through all the text in a given file.
 
 To illustrate, **grep blue notepad.txt** will search for the word blue in the notepad file. Lines that contain the searched word will be displayed fully.
 
-### 14\. [sudo command](/tutorials/sudo-and-the-sudoers-file/)
+### 14\. sudo command
 
 Short for “**SuperUser Do**”, this command enables you to perform tasks that require administrative or root permissions. However, it is not advisable to use this command for daily use because it might be easy for an error to occur if you did something wrong.
 
@@ -142,7 +142,7 @@ Short for “**SuperUser Do**”, this command enables you to perform tasks that
 
 Use **df** command to get a report on the system’s disk space usage, shown in percentage and KBs. If you want to see the report in megabytes, type **df -m**.
 
-### 16\. [du command](/tutorials/vps/how-to-check-and-manage-disk-space-via-terminal)
+### 16\. du command
 
 If you want to check how much space a file or a directory takes, the **du** (Disk Usage) command is the answer. However, the disk usage summary will show disk block numbers instead of the usual size format. If you want to see it in bytes, kilobytes, and megabytes, add the **\-h** argument to the command line.
 
@@ -150,7 +150,7 @@ If you want to check how much space a file or a directory takes, the **du** (Dis
 
 The **head** command is used to view the first lines of any text file. By default, it will show the first ten lines, but you can change this number to your liking. For example, if you only want to show the first five lines, type **head -n 5 filename.ext**.
 
-### 18\. [tail command](/tutorials/how-to-use-tail-command/)
+### 18\. tail command
 
 This one has a similar function to the head command, but instead of showing the first lines, the **tail** command will display the last ten lines of a text file. For example, **tail -n filename.ext.**
 
@@ -160,17 +160,17 @@ Short for difference, the **diff** command compares the contents of two files li
 
 The simplest form of this command is **diff file1.ext file2.ext**
 
-### 20\. [tar command](/tutorials/linux-tar-command-with-examples/)
+### 20\. tar command
 
 The **tar** command is the most used command to archive multiple files into a **tarball** — a common Linux file format that is similar to zip format, with compression being optional.
 
 This command is quite complex with a long list of functions such as adding new files into an existing archive, listing the content of an archive, extracting the content from an archive, and many more. Check out some [practical examples](https://www.linuxtechi.com/17-tar-command-examples-in-linux/) to know more about other functions.
 
-### 21\. [chmod command](/tutorials/vps/change-linux-permissions-and-owners)
+### 21\. chmod command
 
 **chmod** is another Linux command, used to change the read, write, and execute permissions of files and directories. As this command is rather complicated, you can read [the full tutorial](https://www.computerhope.com/unix/uchmod.htm) in order to execute it properly.
 
-### 22\. [chown command](/tutorials/linux-chown-command/)
+### 22\. chown command
 
 In Linux, all files are owned by a specific user. The **chown** command enables you to change or transfer the ownership of a file to the specified username. For instance, **chown linuxuser2 file.ext** will make **linuxuser2** as the owner of the **file.ext**.
 
@@ -178,7 +178,7 @@ In Linux, all files are owned by a specific user. The **chown** command enables 
 
 **jobs** command will display all current jobs along with their statuses. A job is basically a process that is started by the shell.
 
-### 24\. [kill command](/tutorials/how-to-kill-a-process-in-linux/)
+### 24\. kill command
 
 If you have an unresponsive program, you can terminate it manually by using the **kill** command. It will send a certain signal to the misbehaving app and instructs the app to terminate itself.
 
@@ -193,7 +193,7 @@ After knowing what signal you want to use and the PID of the program, enter the 
 
 **kill \[signal option\] PID**.
 
-### 25\. [ping command](/tutorials/linux-ping-command-with-examples/)
+### 25\. ping command
 
 Use the **ping** command to check your connectivity status to a server. For example, by simply entering **ping google.com**, the command will check whether you’re able to connect to Google and also measure the response time.
 
@@ -205,7 +205,7 @@ The Linux command line is super useful — you can even download files from the 
 
 The **uname** command, short for Unix Name, will print detailed information about your Linux system like the machine name, operating system, kernel, and so on.
 
-### 28\. [top command](/tutorials/vps/how-to-manage-processes-in-linux-using-command-line)
+### 28\. top command
 
 As a terminal equivalent to Task Manager in Windows, the **top** command will display a list of running processes and how much CPU each process uses. It’s very useful to monitor system resource usage, especially knowing which process needs to be terminated because it consumes too many resources.
 
@@ -221,7 +221,7 @@ Confused about the function of certain Linux commands? Don’t worry, you can ea
 
 This command is used to move some data into a file. For example, if you want to add the text, “Hello, my name is John” into a file called name.txt, you would type **echo Hello, my name is John** **\>> name.txt**
 
-### 32\. zip, [unzip command](/tutorials/how-to-unzip-files-linux/)
+### 32\. zip, [unzip command
 
 Use the **zip** command to compress your files into a zip archive, and use the **unzip** command to extract the zipped files from a zip archive.
 
@@ -262,16 +262,16 @@ In the end, knowing and mastering these basic Linux commands will be undoubtedly
 
 #### Other Useful Linux Commands to Learn
 
-[How to Use Sed Command to Read Files](/tutorials/how-to-use-linux-sed-command-examples/)  
-[How to Use Curl Command for Data Transfer](/tutorials/curl-command-with-examples-linux/)  
-[How to Perform DNS Lookup With Dig Command](/tutorials/how-to-use-the-dig-command-in-linux/)  
-[How to Use Time Command in Linux](/tutorials/linux-time-command/)  
-[How to Use Scp Command for File Transfer](/tutorials/using-scp-command-to-transfer-files/)  
-[How to Use Linux Watch Command](/tutorials/linux-watch-command/)  
-[How to Use Shutdown Command](/tutorials/linux-shutdown-command/)  
-[How to Use Tee Command to Write and Display to a File](/tutorials/linux-tee-command-with-examples/)  
-[How to Find File Type With File Command in Linux](/tutorials/linux-file-command/)  
-[How to List Services in Linux](/tutorials/manage-and-list-services-in-linux/)  
-[How to Use Rsync for File Transfer and Synchronization](/tutorials/how-to-use-rsync)  
-[How to Change a User Password in Linux](/tutorials/how-to-change-password-in-linux/)  
-[How to Create a Symbolic Link With ln Command](/tutorials/how-to-create-symbolic-links-in-linux/)
+How to Use Sed Command to Read Files
+How to Use Curl Command for Data Transfer
+How to Perform DNS Lookup With Dig Command
+How to Use Time Command in Linux
+How to Use Scp Command for File Transfer
+How to Use Linux Watch Command
+How to Use Shutdown Command
+How to Use Tee Command to Write and Display to a File
+How to Find File Type With File Command in Linux
+How to List Services in Linux
+How to Use Rsync for File Transfer and Synchronization
+How to Change a User Password in Linux
+How to Create a Symbolic Link With ln Command
