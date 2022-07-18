@@ -23,8 +23,6 @@ That being said, it’s recommended to use a command-line interface (CLI) becaus
 
 So if you’re considering using Linux, learning basic command lines will go a long way. In this article, you’ll learn **3**4 basic Linux commands that will undoubtedly help you navigate through Linux as a newbie.
 
-Take full control with Hostinger VPS plans. 30-day money back guarantee - no questions asked! [Get Yours Today](/vps-hosting)
-
 Linux Basic Commands
 --------------------
 
