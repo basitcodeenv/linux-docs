@@ -256,7 +256,7 @@ Conclusion
 
 Basic Linux commands help users execute tasks easily and effectively. It might take a while to remember some of the basic commands, but nothing is impossible with lots of practice.
 
-In the end, knowing and mastering these basic Linux commands will be undoubtedly beneficial for your management of your Linux desktop or [VPS solutions](/vps-hosting). Good luck!
+In the end, knowing and mastering these basic Linux commands will be undoubtedly beneficial for your management of your Linux desktop or VPS solutions. Good luck!
 
 #### Other Useful Linux Commands to Learn
 
