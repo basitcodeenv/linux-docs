@@ -10,7 +10,7 @@ const config = {
     tagline: 'Linux Docs make your work easy',
     url: 'https://linux-docs.vercel.app',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',//throw
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
 
