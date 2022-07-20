@@ -59,13 +59,13 @@ In the Linux environment, files and directories will be permanently deleted as t
 
 Using the **rmdir** command prevents such unwanted actions as it only works for empty directories. It will return the following error message if the directory contains files:
 
-```
+``` bash
 rmdir: failed to remove ‘Directory’: Directory not empty
 ```
 
 The syntax for the **rmdir** command is as follows:
 
-```
+``` bash
 rmdir [option] DirectoryName
 ```
 
@@ -73,20 +73,20 @@ If you don’t want to use any command line option, remove it from the syntax. R
 
 For example, here’s a command for deleting the **Simple-Directory** folder:
 
-```
+``` bash
 rmdir Simple-Directory
 ```
 
 
 The **rmdir** command also works for multiple empty directories. Add the directories in the command as additional arguments to delete multiple directories in Linux.
 
-```
+``` bash
 rmdir Directory_1 Directory_2 Directory_3
 ```
 
 Now let’s see options you can use with the **rmdir** command. The first one is **\-p,** which works for deleting a subdirectory and its parent directory. For example, if your directory path is **/Directory/SubDirectory**, use the following command:
 
-```
+``` bash
 rmdir -p /Directory/SubDirectory
 ```
 
@@ -94,13 +94,13 @@ This command will delete the **SubDirectory** folder in the **Directory** path f
 
 The next option is **verbose**, represented with **\-v** in the command line. This option will print a text as a confirmation that the specified directory has been deleted. Here’s an example of this command:
 
-```
+``` bash
 rmdir -v Simple-Directory
 ```
 
 The output message will be like this:
 
-```
+``` bash
 rmdir: removing directory, ‘Simple-Directory’
 ```
 
@@ -108,13 +108,13 @@ rmdir: removing directory, ‘Simple-Directory’
 
 Now let’s see how to remove non-empty directories using the **rm** command. This command is originally used to remove files, but we can use it to remove directories using options like **\-r**, **\-rf**, and **\-d**. The basic syntax for the **rm** command is as follows:
 
-```
+``` bash
 rm [option] FileOrFolderName
 ```
 
 Use a **recursive** option, represented by **\-r**, to remove the directory and its content. The following command shows how to delete **Simple-Directory** and its content:
 
-```
+``` bash
 rm -r Simple-Directory
 ```
 
@@ -122,19 +122,19 @@ rm -r Simple-Directory
 
 If the directory is write-protected, you will be prompted to confirm before proceeding with the directory removal. To delete a directory without being prompted, use the **\-rf** option.
 
-```
+``` bash
 rm -rf Simple-Directory
 ```
 
 The **rm** command also works for removing empty directories in Linux. However, unlike the **rmdir** command, you have to use the **\-d** option.
 
-```
+``` bash
 rm -d Simple-Directory
 ```
 
 Just as with the **rmdir** command, you can use the **rm** command to remove multiple directories. Add directory names as new arguments in the command line:
 
-```
+``` bash
 rm -r Directory_1 Directory_2 Directory_3
 ```
 
@@ -145,25 +145,25 @@ You may want to use the **rm** command to manually remove files instead of delet
 
 To delete a single file in the current working directory, use the **rm** command followed by the file name:
 
-```
+``` bash
 rm file.txt
 ```
 
 To delete multiple files in the directory, write all the file names you want to delete in the command:
 
-```
+``` bash
 rm file1.txt file2.txt file3.txt
 ```
 
 All the commands above work if you are in the same directory as the specified files. However, you can put the file path into the command line argument to delete a file that’s not in your current working directory.
 
-```
+``` bash
 rm dir/subdir/file.txt
 ```
 
 Since the files will be permanently removed, you can add the **\-i** option in the command to make the terminal prompt you to confirm every file deletion. This way, you prevent unpleasant mistakes from happening.
 
-```
+``` bash
 rm -i file1.txt file2.txt file3.txt
 ```
 
@@ -171,13 +171,13 @@ Type **Y** and press **Enter** if you want to delete the file, or type **N** and
 
 Use **\-I** instead to get prompted only once before deleting more than three files. While this is less safe than the **\-i** option, it still gives extra protection to avoid deleting important files.
 
-```
+``` bash
 rm -I file1.txt file2.txt file3.txt
 ```
 
 However, the system will prompt you anyway before removing files if they’re write-protected. If you don’t want to get prompted when deleting such files, use the **\-f** option.
 
-```
+``` bash
 rm -f file.txt
 ```
 
@@ -185,13 +185,13 @@ The commands we’ve discussed so far will delete specific files. However, using
 
 The asterisk represents multiple unknown characters, and one of the most common use examples is deleting files with a certain extension. The command below will delete all **.txt** files in the current working directory:
 
-```
+``` bash
 rm *.txt
 ```
 
 You can also use the asterisk to delete all files beginning with a specific letter.
 
-```
+``` bash
 rm a*
 ```
 
@@ -200,7 +200,7 @@ In the example above, the asterisk represents all unknown characters that come a
 
 The question mark wildcard, on the other hand, represents a single character. In conjunction with the asterisk wildcard, you can use it to delete files with a single character extension, such as **.S**, **.O**, and **.C**.
 
-```
+``` bash
 rm *.?
 ```
 
