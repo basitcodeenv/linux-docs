@@ -4,10 +4,10 @@ sidebar_position: 2
 # Cat Command
 
 
-Linux Cat Command: Usage and Examples
-=====================================
+## Linux Cat Command: Usage and Examples
 
-The cat command is one of the most useful [Linux commands](/tutorials/linux-commands) you can learn. It derives its name from the word concatenate and let you create, merge or print files in the standard output screen or to another file and much more.
+
+The cat command is one of the most useful [Linux commands](/linux-basics/commands) you can learn. It derives its name from the word concatenate and let you create, merge or print files in the standard output screen or to another file and much more.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -15,24 +15,27 @@ It does not require you to install anything since it comes pre-installed with th
 
 In this tutorial, we will cover the common usages of the Linux cat command explaining its features.
 
-*   [Cat Command Syntax](#cat-command-Syntax "Cat Command Syntax")
-    *   [Creating a File with the Cat Command](#creating-a-file-with-the-cat-command "Creating a File with the Cat Command")
-    *   [Viewing the Content of a File with the Cat Command](#viewing-the-content-of-a-file-with-the-cat-command "Viewing the Content of a File with the Cat Command")
-    *   [Redirecting Content Using the Cat Command](#redirecting-content-using-the-cat-command "Redirecting Content Using the Cat Command")
-    *   [Concatenating Files with the Cat Command](#concatenating-files-with-the-cat-command "Concatenating Files with the Cat Command")
-    *   [Highlighting Line Ends with the Cat Command](#highlighting-line-ends-with-the-cat-command "Highlighting Line Ends with the Cat Command")
-    *   [Display Line Numbers with the Cat Command](#display-line-numbers-with-the-cat-command "Display Line Numbers with the Cat Command")
-    *   [Displaying Non-Printable Characters with the Cat Command](#displaying-non-printable-characters-with-the-cat-command "Displaying Non-Printable Characters with the Cat Command")
-    *   [Suppressing Empty Lines with the Cat Command](#suppressing-empty-lines-with-the-cat-command "Suppressing Empty Lines with the Cat Command")
-    *   [Numbering Non-Empty Lines with the Cat Command](#numbering-non-empty-lines-with-the-cat-command "Numbering Non-Empty Lines with the Cat Command")
-    *   [Displaying a File in Reverse Order With the Cat Command](#displaying-a-file-in-reverse-order-with-the-cat-command "Displaying a File in Reverse Order With the Cat Command")
+- [Cat Command](#cat-command)
+  - [Linux Cat Command: Usage and Examples](#linux-cat-command-usage-and-examples)
+    - [Cat Command Syntax](#cat-command-syntax)
+    - [Creating a File with the Cat Command](#creating-a-file-with-the-cat-command)
+    - [Viewing the Content of a File with the Cat Command](#viewing-the-content-of-a-file-with-the-cat-command)
+    - [Redirecting Content Using the Cat Command](#redirecting-content-using-the-cat-command)
+    - [Concatenating Files with the Cat Command](#concatenating-files-with-the-cat-command)
+    - [Highlighting Line Ends with the Cat Command](#highlighting-line-ends-with-the-cat-command)
+    - [Display Line Numbers with the Cat Command](#display-line-numbers-with-the-cat-command)
+    - [Displaying Non-Printable Characters with the Cat Command](#displaying-non-printable-characters-with-the-cat-command)
+    - [Suppressing Empty Lines with the Cat Command](#suppressing-empty-lines-with-the-cat-command)
+    - [Numbering Non-Empty Lines with the Cat Command](#numbering-non-empty-lines-with-the-cat-command)
+    - [Displaying a File in Reverse Order With the Cat Command](#displaying-a-file-in-reverse-order-with-the-cat-command)
+  - [Conclusion](#conclusion)
+      - [Learn More Linux Commands for Reading Files](#learn-more-linux-commands-for-reading-files)
 
-Cat Command Syntax
-------------------
+### Cat Command Syntax
 
 Before we start exploring the article’s subject, we should log into the VPS using [SSH](/tutorials/how-to-use-putty-ssh), and quickly check the basic syntax. The command takes a filename as an argument along with options to specify particular operations.
 
-```
+``` bash
 cat \[OPTION\] \[FILE\]
 ```
 

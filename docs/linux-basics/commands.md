@@ -83,7 +83,7 @@ Here are other ways to use the **cat** command:
 
 Use the **cp** command to copy files from the current directory to a different directory. For instance, the command **cp scenery.jpg** **/home/username/Pictures** would create a copy of **scenery.jpg** (from your current directory) into the **Pictures** directory.
 
-### 6\. [mv command](/docs/how-to-rename-files-in-linux/)
+### 6\. [mv command](/docs/linux-basics/mv-command/)
 
 The primary use of the **mv** command is to move files, although it can also be used to rename files.
 
