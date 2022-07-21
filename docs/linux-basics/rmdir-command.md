@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: rmdir-command-usage-and-examples
 ---
 # Rmdir Command
 

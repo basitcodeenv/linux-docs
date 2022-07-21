@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: mv-command-usage-and-examples
 ---
 # MV Command
 
