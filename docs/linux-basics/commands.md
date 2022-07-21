@@ -1,15 +1,12 @@
 ---
+sidebar_label: Commands
 sidebar_position: 1
+slug: commands
 ---
 
-
-# Commands
-
+# 34 Basic Linux Commands Every User Should Know
 
 [VPS](https://www.hostinger.com/tutorials/vps)   May 12, 2022 Artūras B.   9 min Read
-
-34 Basic Linux Commands Every User Should Know
-==============================================
 
 ![34 Basic Linux Commands Every User Should Know](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/05/linux-commands-1.webp)
 

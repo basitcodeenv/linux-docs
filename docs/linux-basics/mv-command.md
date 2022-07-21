@@ -1,10 +1,10 @@
 ---
 sidebar_position: 3
+sidebar_label: Mv Command
 slug: mv-command-usage-and-examples
 ---
-# MV Command
 
-## How to Rename Files in Linux
+# How to Rename Files in Linux
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -12,8 +12,7 @@ A command-line terminal is an essential tool for administrating Linux servers. I
 
 To effectively use the potential of your OS, you will need to have strong knowledge of the fundamentals – simple [Linux commands](/tutorials/linux-commands), like renaming existing files and folders.  In this tutorial, you’ll learn how to rename folders in Linux.
 
-- [MV Command](#mv-command)
-  - [How to Rename Files in Linux](#how-to-rename-files-in-linux)
+- [How to Rename Files in Linux](#how-to-rename-files-in-linux)
   - [How to Rename Files in Linux with the mv Command](#how-to-rename-files-in-linux-with-the-mv-command)
   - [Rename File on Linux Using the mv Command](#rename-file-on-linux-using-the-mv-command)
     - [Rename Multiple Files With the mv Command](#rename-multiple-files-with-the-mv-command)

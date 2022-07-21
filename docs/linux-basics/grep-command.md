@@ -1,12 +1,12 @@
 ---
 sidebar_position: 7
+sidebar_label: Grep Command
 slug: grep-command-usage-and-examples
 ---
-# Grep Command
+# How to Use Grep Command in Linux/Unix + Useful Examples
 
 **VPS** &nbsp; Jul 01, 2022 &nbsp; Edward S. &nbsp; 5min Read
 
-## How to Use Grep Command in Linux/Unix + Useful Examples
 
 ![How to Use Grep Command in Linux/Unix + Useful Examples](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/02/grep-command-in-linux-useful-examples.jpg)
 
@@ -18,8 +18,7 @@ In this tutorial, we will cover the basics of the grep command and provide some 
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
-- [Grep Command](#grep-command)
-  - [How to Use Grep Command in Linux/Unix + Useful Examples](#how-to-use-grep-command-in-linuxunix--useful-examples)
+- [How to Use Grep Command in Linux/Unix + Useful Examples](#how-to-use-grep-command-in-linuxunix--useful-examples)
   - [Understanding the grep Command Syntax](#understanding-the-grep-command-syntax)
   - [Practical Examples of the grep Command Line](#practical-examples-of-the-grep-command-line)
     - [How to Search for a Word in a File](#how-to-search-for-a-word-in-a-file)

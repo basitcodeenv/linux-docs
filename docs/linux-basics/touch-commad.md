@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
+sidebar_label: Touch Command
 slug: touch-command-usage-and-examples
 ---
-# Touch Command
+
+# How to Use the Touch Linux Command + Examples
 
 **VPS** &nbsp; May 19, 2022 &nbsp; Edward S. &nbsp; 4min Read
-
-## How to Use the Touch Linux Command + Examples
 
 Touch command is a [Linux command](/tutorials/linux-commands) is mainly used to create empty files, and change timestamps of files or folders. The timestamp information of files consists of three attributes – access time, modification time, and change time.
 
@@ -14,8 +14,7 @@ Touch command is a [Linux command](/tutorials/linux-commands) is mainly used to 
 
 This tutorial will explain the Linux touch command, its options, and usages while providing useful examples.
 
-- [Touch Command](#touch-command)
-  - [How to Use the Touch Linux Command + Examples](#how-to-use-the-touch-linux-command--examples)
+- [How to Use the Touch Linux Command + Examples](#how-to-use-the-touch-linux-command--examples)
   - [What is a Timestamp in Linux](#what-is-a-timestamp-in-linux)
   - [Linux Touch Command Syntax](#linux-touch-command-syntax)
     - [Create a File Using Touch](#create-a-file-using-touch)

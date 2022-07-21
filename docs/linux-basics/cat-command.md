@@ -1,12 +1,9 @@
 ---
 sidebar_position: 2
+sidebar_label: Cat Command
 slug: cat-command-usage-and-examples
 ---
-# Cat Command
-
-
-## Linux Cat Command: Usage and Examples
-
+# Linux Cat Command: Usage and Examples
 
 The cat command is one of the most useful [Linux commands](/linux-basics/commands) you can learn. It derives its name from the word concatenate and let you create, merge or print files in the standard output screen or to another file and much more.
 
@@ -16,8 +13,7 @@ It does not require you to install anything since it comes pre-installed with th
 
 In this tutorial, we will cover the common usages of the Linux cat command explaining its features.
 
-- [Cat Command](#cat-command)
-  - [Linux Cat Command: Usage and Examples](#linux-cat-command-usage-and-examples)
+- [Linux Cat Command: Usage and Examples](#linux-cat-command-usage-and-examples)
     - [Cat Command Syntax](#cat-command-syntax)
     - [Creating a File with the Cat Command](#creating-a-file-with-the-cat-command)
     - [Viewing the Content of a File with the Cat Command](#viewing-the-content-of-a-file-with-the-cat-command)
@@ -37,7 +33,7 @@ In this tutorial, we will cover the common usages of the Linux cat command expla
 Before we start exploring the article’s subject, we should log into the VPS using [SSH](/tutorials/how-to-use-putty-ssh), and quickly check the basic syntax. The command takes a filename as an argument along with options to specify particular operations.
 
 ``` bash
-cat \[OPTION\] \[FILE\]
+cat [OPTION] [FILE]
 ```
 
 To find all the available options, just type cat **–help** from the terminal.

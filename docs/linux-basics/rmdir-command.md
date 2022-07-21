@@ -1,11 +1,10 @@
 ---
 sidebar_position: 4
+sidebar_label: Rmdir Command
 slug: rmdir-command-usage-and-examples
 ---
-# Rmdir Command
 
-Remove Directory in Linux: How to Delete Files and Folders
-==========================================================
+# Remove Directory in Linux: How to Delete Files and Folders
 
 ![Remove Directory in Linux: How to Delete Files and Folders](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/11/how-to-remove-files-and-folders-using-linux-command-line.webp)
 
@@ -17,7 +16,6 @@ Since Linux is a popular operating system for [virtual server hosting](/vps-host
 
 This article will show you how to remove files and directories using the Linux command line.
 
-- [Rmdir Command](#rmdir-command)
 - [Remove Directory in Linux: How to Delete Files and Folders](#remove-directory-in-linux-how-to-delete-files-and-folders)
 	- [How to Remove a Directory in Linux](#how-to-remove-a-directory-in-linux)
 		- [How to Remove an Empty Directory (rmdir Command)](#how-to-remove-an-empty-directory-rmdir-command)

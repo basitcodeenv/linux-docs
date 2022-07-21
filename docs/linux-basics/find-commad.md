@@ -1,12 +1,11 @@
 ---
 sidebar_position: 6
+sidebar_label: Find Command
 slug: find-command-usage-and-examples
 ---
-# Find Command
+# How to Use the Linux Locate Command to Find Any File
 
 **VPS** &nbsp; Jun 30, 2022 &nbsp; Domantas G. &nbsp; 7min Read
-
-## How to Use the Linux Locate Command to Find Any File
 
 ![How to Use the Linux Locate Command to Find Any File](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/05/how-to-use-find-and-locate-commands-in-linux.webp)
 
@@ -55,11 +54,13 @@ It starts with the keyword **find**, which alerts Linux that whatever follows af
 *   **. (dot)** — search from the folder you’re currently working on (current directory).
 *   **~ (tilde)** — to search from your home folder.
 
-#### Pro Tip
+:::tip
 
 In order to find the current directory you are in, use the **pwd** command.
 
 The second argument **<options\>** is dedicated to your file. This could be the file’s name, type, date of creation, etc. The third argument **<search term\>** is where you will specify the relevant search term.
+
+:::
 
 ### Ways to Utilize find Command
 
