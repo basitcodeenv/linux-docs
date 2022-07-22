@@ -8,7 +8,7 @@ slug: touch-command-usage-and-examples
 
 **VPS** &nbsp; May 19, 2022 &nbsp; Edward S. &nbsp; 4min Read
 
-Touch command is a [Linux command](/tutorials/linux-commands) is mainly used to create empty files, and change timestamps of files or folders. The timestamp information of files consists of three attributes – access time, modification time, and change time.
+Touch command is a [Linux command](/linux-basics/commands) is mainly used to create empty files, and change timestamps of files or folders. The timestamp information of files consists of three attributes – access time, modification time, and change time.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -163,12 +163,12 @@ This tutorial covers the usages of the Linux touch command by including the most
 
 #### Learn More Linux Commands for File Management
 
-[How to Remove Files and Directories](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)  
-[How to Locate a File](/tutorials/how-to-use-find-and-locate-commands-in-linux/)  
+[How to Remove Files and Directories](/docs/linux-basics/rmdir-command-usage-and-examples)  
+[How to Locate a File](/docs/linux-basics/find-command-usage-and-examples/)  
 [How to Compress a File with Tar Command](/tutorials/linux-tar-command-with-examples/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Change FIle Permissions with Chmod Command](/tutorials/vps/change-linux-permissions-and-owners)  
-[How to Rename a File](/tutorials/how-to-rename-files-in-linux/)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Change FIle Permissions with Chmod Command](/docs/linux-basics/change-linux-permissions-and-owners/)  
+[How to Rename a File](/docs/linux-basics/mv-command-usage-and-examples/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)

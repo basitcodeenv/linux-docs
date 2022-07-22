@@ -8,7 +8,7 @@ slug: sudo-command-usage-and-sudoers-file
 
 **VPS** &nbsp; May 16, 2022 &nbsp; Edward S. &nbsp; 3min Read
 
-The sudo command allows non root users to run other [Linux commands](/tutorials/linux-commands) that would normally require super user privileges, while the sudoers file instructs the system how to handle the sudo command. In this tutorial, we’ll show you all the sudo command basics and how to edit the sudoers file.
+The sudo command allows non root users to run other [Linux commands](/linux-basics/commands) that would normally require super user privileges, while the sudoers file instructs the system how to handle the sudo command. In this tutorial, we’ll show you all the sudo command basics and how to edit the sudoers file.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -76,7 +76,7 @@ sudo visudo -f /etc/sudoers
 
 It is recommended to use visudo to edit the sudoers file. Visudo makes sure that sudoers is edited by one user at a time and provides necessary syntax checks.
 
-To see which users are in the sudo group we can use a [grep](https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/) command:
+To see which users are in the sudo group we can use a [grep](https://www.hostinger.com/docs/linux-basics/grep-command-usage-and-examples) command:
 
 ``` bash
 grep ‘sudo’ /etc/group

@@ -7,7 +7,7 @@ slug: change-linux-permissions-and-owners
 
 **VPS** &nbsp; Apr 28, 2022 &nbsp; Domantas G. &nbsp; 5min Read
 
-In this tutorial, you will learn how to change permissions and owners using [Linux commands](/tutorials/linux-commands) **chmod** and **chown**. By doing so, you’ll have better management in team-based projects.
+In this tutorial, you will learn how to change permissions and owners using [Linux commands](/linux-basics/commands) **chmod** and **chown**. By doing so, you’ll have better management in team-based projects.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -114,7 +114,7 @@ Common permissions for directories:
 
 ## Changing the Owners of Files and Folders
 
-To change the owner of a file and folder, we will be using the **chown** command. We have a detailed tutorial, if you’d like to learn more about [chown command](/tutorials/linux-chown-command/), but this is the basic syntax:
+To change the owner of a file and folder, we will be using the **chown** command. We have a detailed tutorial, if you’d like to learn more about [chown command](/docs/linux-basics/chown-command-usage-and-examples/), but this is the basic syntax:
 
 ``` bash
 chown [owner/group owner] [file name]
@@ -176,12 +176,12 @@ If you have any questions, feel free to comment below!
 
 #### Learn More Linux Commands for File Management
 
-[How to Remove Files and Directories](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)  
-[How to Create an Empty File](/tutorials/linux-touch-command-with-useful-examples/)  
-[How to Locate a File](/tutorials/how-to-use-find-and-locate-commands-in-linux/)  
+[How to Remove Files and Directories](/docs/linux-basics/rmdir-command-usage-and-examples)  
+[How to Create an Empty File](/docs/linux-basics/touch-command-usage-and-examples)  
+[How to Locate a File](/docs/linux-basics/find-command-usage-and-examples/)  
 [How to Compress a File with Tar Command](/tutorials/linux-tar-command-with-examples/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Rename a File](/tutorials/how-to-rename-files-in-linux/)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Rename a File](/docs/linux-basics/mv-command-usage-and-examples/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)

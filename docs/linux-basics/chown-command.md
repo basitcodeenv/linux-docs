@@ -40,7 +40,7 @@ These three groups have their permissions indicated by the **rwx** logic like, a
 
 :::tip Pro Tip
 
-Users can easily change ownership and permissions on a VPS with the [help of the command line.](/tutorials/vps/change-linux-permissions-and-owners)
+Users can easily change ownership and permissions on a VPS with the [help of the command line.](/docs/linux-basics/change-linux-permissions-and-owners/)
 :::
 
 The main command for changing ownership is **chown**. It allows users to change user and group ownership both for files and for directories. We’ll go over the chown syntax below:

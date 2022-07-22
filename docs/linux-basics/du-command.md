@@ -8,7 +8,7 @@ slug: how-to-check-and-manage-disk-space-via-terminal
 
 ![How to Check Disk Space Usage in Linux](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2016/11/how-to-check-disk-space-usage-in-linux.png)
 
-In this tutorial, we are going to show you how to use the **df** command to check disk space, and the **du** command to monitor disk usage in terminal. These are the two essential [Linux commands](/tutorials/linux-commands) that will help you manage your files more effectively.
+In this tutorial, we are going to show you how to use the **df** command to check disk space, and the **du** command to monitor disk usage in terminal. These are the two essential [Linux commands](/linux-basics/commands) that will help you manage your files more effectively.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -93,7 +93,7 @@ Let’s say you want to see all files that are above a certain size. The most ef
 du -h /home/user/Desktop | grep '^\\s\*\[0-9\\.\]\\+G'
 ```
 
-The [grep command](https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/) allows us to search for files based on a specified pattern. In this example, the script will return with any files bigger than 1 GB. If you want to single out 1 MB+ data, you can replace **G** with **M**.
+The [grep command](https://www.hostinger.com/docs/linux-basics/grep-command-usage-and-examples) allows us to search for files based on a specified pattern. In this example, the script will return with any files bigger than 1 GB. If you want to single out 1 MB+ data, you can replace **G** with **M**.
 
 ### Excluding File Types
 

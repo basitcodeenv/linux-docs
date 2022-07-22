@@ -12,7 +12,7 @@ slug: rmdir-command-usage-and-examples
 
 Learning how to use the Linux command line is essential for all Linux users and system administrators. Simple maintenance tasks like creating a file, navigating to a folder, or moving a file can all be done through it.
 
-Since Linux is a popular operating system for [virtual server hosting](/vps-hosting), understanding fundamental [Linux commands](/tutorials/linux-commands) is crucial for server management.
+Since Linux is a popular operating system for [virtual server hosting](/vps-hosting), understanding fundamental [Linux commands](/linux-basics/commands) is crucial for server management.
 
 This article will show you how to remove files and directories using the Linux command line.
 
@@ -215,12 +215,12 @@ If you have additional questions, feel free to leave us a comment.
 
 ### Learn More Linux Commands for File Management
 
-[How to Create an Empty File](/tutorials/linux-touch-command-with-useful-examples/)  
-[How to Locate a File](/tutorials/how-to-use-find-and-locate-commands-in-linux/)  
+[How to Create an Empty File](/docs/linux-basics/touch-command-usage-and-examples)  
+[How to Locate a File](/docs/linux-basics/find-command-usage-and-examples/)  
 [How to Compress a File with Tar Command](/tutorials/linux-tar-command-with-examples/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Change FIle Permissions with Chmod Command](/tutorials/vps/change-linux-permissions-and-owners)  
-[How to Rename a File](/tutorials/how-to-rename-files-in-linux/)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Change FIle Permissions with Chmod Command](/docs/linux-basics/change-linux-permissions-and-owners/)  
+[How to Rename a File](/docs/linux-basics/mv-command-usage-and-examples/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)

@@ -7,7 +7,6 @@ slug: grep-command-usage-and-examples
 
 **VPS** &nbsp; Jul 01, 2022 &nbsp; Edward S. &nbsp; 5min Read
 
-
 ![How to Use Grep Command in Linux/Unix + Useful Examples](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/02/grep-command-in-linux-useful-examples.jpg)
 
 Searching for files on a [VPS](/vps-hosting) might seem an easy task at first. However, it can quickly become overwhelming, especially if you have thousands of large log files to check or run a Linux operating system without a graphical interface.
@@ -34,7 +33,7 @@ In this tutorial, we will cover the basics of the grep command and provide some 
 
 ## Understanding the grep Command Syntax
 
-Grep, or global regular expression print, is one of the most versatile and useful [Linux commands](https://www.hostinger.com/tutorials/linux-commands) available.
+Grep, or global regular expression print, is one of the most versatile and useful [Linux commands](https://www.hostinger.com/linux-basics/commands) available.
 
 It works by searching for text and strings that users define in a given file. In other words, grep enables users to search files for a particular pattern or word and see any lines that contain it.
 

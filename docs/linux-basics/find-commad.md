@@ -9,7 +9,7 @@ slug: find-command-usage-and-examples
 
 ![How to Use the Linux Locate Command to Find Any File](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/05/how-to-use-find-and-locate-commands-in-linux.webp)
 
-Do you want to know how to perform searches using [Linux commands](/tutorials/linux-commands)? Then you’ve come to the right place!
+Do you want to know how to perform searches using [Linux commands](/linux-basics/commands)? Then you’ve come to the right place!
 
 In this article, we’ll talk about the Linux **find** and **locate** commands, which will help you to look for any file on your machine.
 
@@ -360,12 +360,12 @@ If you have any questions, feel free to ask in the comments!
 
 #### Learn More Linux Commands for File Management
 
-[How to Remove Files and Directories](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)  
-[How to Create an Empty File](/tutorials/linux-touch-command-with-useful-examples/)  
+[How to Remove Files and Directories](/docs/linux-basics/rmdir-command-usage-and-examples)  
+[How to Create an Empty File](/docs/linux-basics/touch-command-usage-and-examples)  
 [How to Compress a File with Tar Command](/tutorials/linux-tar-command-with-examples/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Change FIle Permissions with Chmod Command](/tutorials/vps/change-linux-permissions-and-owners)  
-[How to Rename a File](/tutorials/how-to-rename-files-in-linux/)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Change FIle Permissions with Chmod Command](/docs/linux-basics/change-linux-permissions-and-owners/)  
+[How to Rename a File](/docs/linux-basics/mv-command-usage-and-examples/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)

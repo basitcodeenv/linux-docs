@@ -165,7 +165,7 @@ We hope this article helped you better your Linux Terminal skills. See you in th
 
 #### Learn More Linux Commands for Reading Files
 
-[How to Search Inside a Text File With Grep Command](/tutorials/grep-command-in-linux-useful-examples/)  
+[How to Search Inside a Text File With Grep Command](/docs/linux-basics/grep-command-usage-and-examples)  
 [How to Read the End of a File](/tutorials/how-to-use-tail-command/)  
 [How to Read a File With Sed Command](/tutorials/how-to-use-linux-sed-command-examples/)  
 [How to Write and Display to File With Tee Command](/tutorials/linux-tee-command-with-examples/)

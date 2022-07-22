@@ -9,7 +9,7 @@ slug: tail-command-usage-and-examples
 
 ![Linux Tail Command: What It is and How to Use It](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/03/how-to-use-tail-command.jpg)
 
-Tail in Linux is a command-line utility that displays the last part of file content. You can also combine it with one or more [Linux commands](/tutorials/linux-commands) to produce standard output.
+Tail in Linux is a command-line utility that displays the last part of file content. You can also combine it with one or more [Linux commands](/linux-basics/commands) to produce standard output.
 
 The basic functionality of the tail command makes monitoring log files and real-time updates of one or more files easier. Its usage will expand if combined with other commands ‒ including, but not limited to, sorting and deleting files based on specific criteria.
 
@@ -182,7 +182,7 @@ We hope this article has helped you understand the use of the Linux tail command
 #### Learn More Linux Commands for Reading Files
 
 [How to Read the Content of a File](/tutorials/linux-cat-command-tutorial-and-examples/)  
-[How to Search Inside a Text File With Grep Command](/tutorials/grep-command-in-linux-useful-examples/)  
+[How to Search Inside a Text File With Grep Command](/docs/linux-basics/grep-command-usage-and-examples)  
 [How to Read a File With Sed Command](/tutorials/how-to-use-linux-sed-command-examples/)  
 [How to Write and Display to File With Tee Command](/tutorials/linux-tee-command-with-examples/)
 

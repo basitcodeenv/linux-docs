@@ -9,7 +9,7 @@ slug: ping-command-usage-and-examples
 
 ![How to Use the Linux Ping Command](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/03/linux-ping-command-with-examples.jpg)
 
-The PING or Packet Internet Groper is a well-loved [Linux command](/tutorials/linux-commands)! Its main purpose is to manage the network connectivity status between a source and a device with the help of an IP network. In this tutorial, you’ll learn how it can help your project and how to start using it!
+The PING or Packet Internet Groper is a well-loved [Linux command](/linux-basics/commands)! Its main purpose is to manage the network connectivity status between a source and a device with the help of an IP network. In this tutorial, you’ll learn how it can help your project and how to start using it!
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 

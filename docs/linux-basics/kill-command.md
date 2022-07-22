@@ -9,7 +9,7 @@ slug: kill-command-usage-and-examples
 
 ![How to Kill a Process in Linux](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/03/how-to-kill-a-process-in-linux.jpg)
 
-Tasks in Linux are called processes. Every process has a unique process ID. In this tutorial, we’ll show you how to terminate a process using [Linux commands](/tutorials/linux-commands), to improve your [VPS](/tutorials/what-is-vps-hosting) management skills.
+Tasks in Linux are called processes. Every process has a unique process ID. In this tutorial, we’ll show you how to terminate a process using [Linux commands](/linux-basics/commands), to improve your [VPS](/tutorials/what-is-vps-hosting) management skills.
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 
@@ -47,7 +47,7 @@ Kill commands lets you terminate a process by using a specific process ID, also 
 ps
 ```
 
-This will list all the available processes with a pid. If you want to make your list more specific – add a [grep command](https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/) like this:
+This will list all the available processes with a pid. If you want to make your list more specific – add a [grep command](https://www.hostinger.com/docs/linux-basics/grep-command-usage-and-examples) like this:
 
 ``` bash
 ps -ux | grep java

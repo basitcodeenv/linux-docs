@@ -7,7 +7,7 @@ slug: how-to-manage-processes-in-linux-using-command-line
 
 **VPS** &nbsp; Jun 03, 2022 &nbsp; Domantas G. &nbsp; 4min Read
 
-Need to view all running processes on your Linux server and discover which consumes your resources the most? Look no further, because, in this article, we’ll explain how to list processes by using several common [Linux commands](/tutorials/linux-commands).
+Need to view all running processes on your Linux server and discover which consumes your resources the most? Look no further, because, in this article, we’ll explain how to list processes by using several common [Linux commands](/linux-basics/commands).
 
 [Download Complete Linux Commands Cheat Sheet](https://app.monstercampaigns.com/c/jg9u9k0by4lj9pvcjeso/)
 

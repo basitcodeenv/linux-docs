@@ -10,7 +10,7 @@ slug: mv-command-usage-and-examples
 
 A command-line terminal is an essential tool for administrating Linux servers. It provides Linux users some of the best productivity tools while saving your machine’s resources.
 
-To effectively use the potential of your OS, you will need to have strong knowledge of the fundamentals – simple [Linux commands](/tutorials/linux-commands), like renaming existing files and folders.  In this tutorial, you’ll learn how to rename folders in Linux.
+To effectively use the potential of your OS, you will need to have strong knowledge of the fundamentals – simple [Linux commands](/linux-basics/commands), like renaming existing files and folders.  In this tutorial, you’ll learn how to rename folders in Linux.
 
 - [How to Rename Files in Linux](#how-to-rename-files-in-linux)
   - [How to Rename Files in Linux with the mv Command](#how-to-rename-files-in-linux-with-the-mv-command)
@@ -231,12 +231,12 @@ We encourage you to continue researching these commands and improving the qualit
 
 #### Learn More Linux Commands for File Management
 
-[How to Remove Files and Directories](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)  
-[How to Create an Empty File](/tutorials/linux-touch-command-with-useful-examples/)  
-[How to Locate a File](/tutorials/how-to-use-find-and-locate-commands-in-linux/)  
+[How to Remove Files and Directories](/docs/linux-basics/rmdir-command-usage-and-examples)  
+[How to Create an Empty File](/docs/linux-basics/touch-command-usage-and-examples)  
+[How to Locate a File](/docs/linux-basics/find-command-usage-and-examples/)  
 [How to Compress a File with Tar Command](/tutorials/linux-tar-command-with-examples/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Change FIle Permissions with Chmod Command](/tutorials/vps/change-linux-permissions-and-owners)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Change FIle Permissions with Chmod Command](/docs/linux-basics/change-linux-permissions-and-owners/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)

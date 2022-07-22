@@ -1,13 +1,13 @@
 ---
 sidebar_position: 10
-sidebar_label: Tail Command
+sidebar_label: Tar Command
 slug: tar-command-usage-and-examples
 ---
 # How to Use the Tar Command in Linux
 
 **VPS** &nbsp; Apr 28, 2022 &nbsp; Edward S. &nbsp; 4min Read
 
-Tar is one of the most widely used [Linux commands](/tutorials/linux-commands) for compression. There are great benefits in using tar, that’s why it’s loved by the pros. Here’s all you need to get you started.
+Tar is one of the most widely used [Linux commands](/linux-basics/commands) for compression. There are great benefits in using tar, that’s why it’s loved by the pros. Here’s all you need to get you started.
 
 Tar stands for Tape archive and is used to compress a collection of files and folders.
 
@@ -287,12 +287,12 @@ As you can see, tar is a truly powerful tool that every Linux enthusiast should 
 
 #### Learn More Linux Commands for File Management
 
-[How to Remove Files and Directories](/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)  
-[How to Create an Empty File](/tutorials/linux-touch-command-with-useful-examples/)  
-[How to Locate a File](/tutorials/how-to-use-find-and-locate-commands-in-linux/)  
-[How to Change File Ownership with Chown Command](/tutorials/linux-chown-command/)  
-[How to Unzip Files in Linux](/tutorials/how-to-unzip-files-linux/)  
-[How to Change File Permissions with Chmod Command](/tutorials/vps/change-linux-permissions-and-owners)  
-[How to Rename a File](/tutorials/how-to-rename-files-in-linux/)  
+[How to Remove Files and Directories](/docs/linux-basics/rmdir-command-usage-and-examples)  
+[How to Create an Empty File](/docs/linux-basics/touch-command-usage-and-examples)  
+[How to Locate a File](/docs/linux-basics/find-command-usage-and-examples/)  
+[How to Change File Ownership with Chown Command](/docs/linux-basics/chown-command-usage-and-examples/)  
+[How to Unzip Files in Linux](/docs/linux-basics/unzip-command-usage-and-examples/)  
+[How to Change File Permissions with Chmod Command](/docs/linux-basics/change-linux-permissions-and-owners/)  
+[How to Rename a File](/docs/linux-basics/mv-command-usage-and-examples/)  
 [How to Check File Type](/tutorials/linux-file-command/)  
 [How to Create a Symbolic Link (Symlink)](/tutorials/how-to-create-symbolic-links-in-linux/)
