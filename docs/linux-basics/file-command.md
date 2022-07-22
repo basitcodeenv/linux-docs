@@ -115,7 +115,7 @@ The output only states **ASCII text** without the file name.
 The file command can also work with multiple files available on the system, with the output for each file in a separate line. To do this, simply replace a variable with the wildcard **\***:
 
 ``` bash 
-file \*.txt
+file *.txt
 ```
 
 The output will contain the information on all **.txt** files in the current directory.
@@ -127,7 +127,7 @@ You can use this command to list all the files inside a directory by adding the 
 For example, if you want to list all ASCII text files inside the **Test** directory, you can use the following command from root or any other directory:
 
 ``` bash 
-file Test/\*.txt
+file Test/*.txt
 ```
 
 The output will look like this:
