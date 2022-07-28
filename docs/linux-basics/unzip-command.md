@@ -85,7 +85,7 @@ Now that we know how to install the utility, we can start learning the basic use
 The basic syntax to create a **.zip** file is:
 
 ``` bash
-zip options zipfile list\_Of\_files
+zip options zipfile list_Of_files
 ```
 
 To test this, we created two files – **ExampleFile.txt** and **ExampleFile1.txt**. We’ll compress them into **sampleZipFile.zip** with the following command:

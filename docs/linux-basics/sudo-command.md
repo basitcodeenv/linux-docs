@@ -119,19 +119,19 @@ sudo visudo -f /etc/sudoers.d/networking
 Add following text in the file:
 
 ```
-Cmnd\_Alias CAPTURE = /usr/sbin/tcpdump
+Cmnd_Alias CAPTURE = /usr/sbin/tcpdump
 
-Cmnd\_Alias SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd
+Cmnd_Alias SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd
 
-Cmnd\_Alias NETALL = CAPTURE, SERVERS
+Cmnd_Alias NETALL = CAPTURE, SERVERS
 
 %netadmin ALL=NETALL
 
-Cmnd\_Alias CAPTURE = /usr/sbin/tcpdump Cmnd\_Alias SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd Cmnd\_Alias NETALL = CAPTURE, SERVERS %netadmin ALL=NETALL
+Cmnd_Alias CAPTURE = /usr/sbin/tcpdump Cmnd_Alias SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd Cmnd_Alias NETALL = CAPTURE, SERVERS %netadmin ALL=NETALL
 
-Cmnd\_Alias     CAPTURE = /usr/sbin/tcpdump
-Cmnd\_Alias     SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd
-Cmnd\_Alias     NETALL = CAPTURE, SERVERS
+Cmnd_Alias     CAPTURE = /usr/sbin/tcpdump
+Cmnd_Alias     SERVERS = /usr/sbin apache2ctl, /usr/bin/htpasswd
+Cmnd_Alias     NETALL = CAPTURE, SERVERS
 %netadmin ALL=NETALL
 ```
 
