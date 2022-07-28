@@ -136,6 +136,8 @@ const config = {
 
                 indexName: 'linux-docs',
 
+                debug: false,
+
                 // Optional: see doc section below
                 // contextualSearch: true,
 
